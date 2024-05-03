@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -31,7 +32,8 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to <b className="purple">Cybersecurity.</b>
+                also in areas related to{" "}
+                <b className="purple">Cybersecurity.</b>
               </i>
               <br />
               <br />
@@ -64,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href={process.env.REACT_APP_Github_Link}
+                  href="https://github.com/DUC-ANH-LY"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -72,7 +74,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -81,10 +83,20 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
+              </li> */}
+              <li className="social-icons">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100005716692268"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineFacebook />
+                </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/ly-duc-anh-0a6851247/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,7 +104,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
@@ -101,7 +113,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
